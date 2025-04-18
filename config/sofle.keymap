@@ -58,7 +58,7 @@
             bindings = <
 &kp ESC     &kp F1           &kp F2          &kp F3      &kp F4      &kp F5    &mmv MOVE_UP     &kp F6     &kp F7      &kp F8    &kp F9    &kp F10   &kp F11
 &trans      &trans           &trans          &trans      &trans      &trans    &mmv MOVE_DOWN   &trans     &trans      &trans    &trans    &trans    &kp F12
-&trans      &trans           &kp LBRC        &kp LBKT    &kp LPAR    &trans    &mmv MOVE_LEFT   &trans     &kp RPAR    &kp RBKT  &kp RBRC  &trans    &trans
+&trans      &trans           &kp LBRC        &kp LBKT    &kp LPAR    &trans    &mmv MOVE_LEFT   &trans     &kp RPAR    &kp RBKT  &kp RBRC  &trans    &kp PIPE
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans      &trans      &trans    &mmv MOVE_RIGHT  &trans     &trans      &trans    &trans    &trans    &trans
 &kp C_MUTE  &trans           &trans          &trans      &trans      &trans    &mkp LCLK        &trans     &trans      &trans    &trans    &trans
             >;
