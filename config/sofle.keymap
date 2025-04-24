@@ -12,8 +12,8 @@
 #define U_MS_D &mmv MOVE_DOWN
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+
+#define LEFT_ALT_MT 
 
 / {
     behaviors {
@@ -47,7 +47,7 @@
 &kp TAB       &kp Q      &kp W         &kp E         &kp R       &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I         &kp O            &kp P       &kp EQUAL
 &kp BACKSPACE &kp A      &kp S         &kp D         &kp F       &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K         &kp L            &kp SEMI    &kp APOS
 &kp LSHFT     &kp Z      &kp X         &kp C         &kp V       &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA     &kp DOT          &kp FSLH    &kp RSHIFT
-&kp C_MUTE    &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE   &mo 1        &kp ENTER        &mo 2      &kp ENTER  &kp RIGHT_GUI &kp RIGHT_ALT    &kp RCTRL
+&kp C_MUTE    &kp LCTRL  &mt LEFT_ALT LC(SPACE)  &kp LEFT_GUI  &kp SPACE   &mo 1        &kp ENTER        &mo 2      &kp ENTER  &kp RIGHT_GUI &kp RIGHT_ALT    &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
